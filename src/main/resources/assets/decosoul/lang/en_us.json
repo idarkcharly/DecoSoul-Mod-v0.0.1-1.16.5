@@ -1,0 +1,39 @@
+{
+	//Items
+	"item.decosoul.lingering_flame": "Test 01",
+	"item.decosoul.lightning_spear": "Test 02",
+	"item.decosoul.soul": "Soul",
+	"item.decosoul.large_soul": "Large Soul",
+	"item.decosoul.lifegem": "Lifegem",
+	"item.decosoul.estus_flask": "Estus Flask",
+	"item.decosoul.empty_estus_flask": "Empty Estus Flask",
+	"item.decosoul.hollow_spawn_egg": "Hollow",
+	//==================================================
+	//Swords
+	//Sword Broken
+	"item.decosoul.regular_broken_sword": "Broken Sword",
+	"item.decosoul.lightning_broken_sword": "Broken Sword",
+	"item.decosoul.fire_broken_sword": "Broken Sword",
+	"item.decosoul.poison_broken_sword": "Broken Sword",
+	//Sword Heide
+	"item.decosoul.regular_heide_sword": "Heide Sword",
+	"item.decosoul.lightning_heide_sword": "Heide Sword",
+	"item.decosoul.fire_heide_sword": "Heide Sword",
+	"item.decosoul.poison_heide_sword": "Heide Sword",
+	//Sword Long
+	"item.decosoul.regular_longsword": "LongSword",
+	"item.decosoul.lightning_longsword": "LongSword",
+	"item.decosoul.fire_longsword": "LongSword",
+	"item.decosoul.poison_longsword": "LongSword",
+	//==================================================
+	//Blocks
+	"block.decosoul.bonfire": "Bonfire",
+	//==================================================
+	//ToolTips
+	"tooltip.decosoul.lightning_sword": "\u00A7eLightning Sword",
+	"tooltip.decosoul.fire_sword": "\u00A74Fire Sword",
+	"tooltip.decosoul.poison_sword": "\u00A7aPoison Sword",
+	//==================================================
+	//Effect
+	"effect.decosoul.bleeding": "Bleeding"
+}

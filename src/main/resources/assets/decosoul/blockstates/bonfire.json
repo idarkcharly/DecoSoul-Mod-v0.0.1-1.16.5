@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"clicked=false": {
+			"model": "decosoul:block/bonfire_off"
+		},
+		"clicked=true": {
+			"model": "decosoul:block/bonfire_on"
+		}
+	}
+}

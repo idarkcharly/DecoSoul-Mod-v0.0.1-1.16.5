@@ -1,0 +1,30 @@
+{
+	"lifegem_sound": {
+		"category": "blocks",
+		"subtitle": "decosoul.lifegem_sound",
+		"sounds": [
+			"decosoul:lifegem_sound"
+		]
+	},
+	"tunder_sound": {
+		"category": "blocks",
+		"subtitle": "decosoul.tunder_sound",
+		"sounds": [
+			"decosoul:tunder_sound"
+		]
+	},
+	"undead_footstep": {
+		"category": "blocks",
+		"subtitle": "decosoul.undead_footstep",
+		"sounds": [
+			"decosoul:undead_footstep"
+		]
+	},
+	"bonfire_clicked": {
+		"category": "blocks",
+		"subtitle": "decosoul.bonfire_clicked",
+		"sounds": [
+			"decosoul:bonfire_clicked"
+		]
+	}
+}
