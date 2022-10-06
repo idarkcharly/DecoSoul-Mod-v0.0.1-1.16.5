@@ -1,0 +1,20 @@
+Stream.of(
+Block.makeCuboidShape(4, 0, 4, 12, 8, 12),
+Block.makeCuboidShape(5, 8, 4, 11, 9, 5),
+Block.makeCuboidShape(5, 8, 11, 11, 9, 12),
+Block.makeCuboidShape(11, 8, 4, 12, 9, 12),
+Block.makeCuboidShape(4, 8, 4, 5, 9, 12),
+Block.makeCuboidShape(1, 1, 7.5, 2, 8, 8.5),
+Block.makeCuboidShape(2, 1, 7.5, 4, 2, 8.5),
+Block.makeCuboidShape(2, 7, 7.5, 4, 8, 8.5),
+Block.makeCuboidShape(3.5, 7, 3.5, 4, 8, 7.5),
+Block.makeCuboidShape(3.5, 7, 8.5, 4, 8, 12.5),
+Block.makeCuboidShape(3.5, 1, 8.5, 4, 2, 12.5),
+Block.makeCuboidShape(12, 7, 3.5, 12.5, 8, 12.5),
+Block.makeCuboidShape(4, 7, 12, 12, 8, 12.5),
+Block.makeCuboidShape(4, 7, 3.5, 12, 8, 4),
+Block.makeCuboidShape(3.5, 1, 3.5, 4, 2, 7.5),
+Block.makeCuboidShape(4, 1, 3.5, 12, 2, 4),
+Block.makeCuboidShape(12, 1, 3.5, 12.5, 2, 12.5),
+Block.makeCuboidShape(4, 1, 12, 12, 2, 12.5)
+).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR)).get();
