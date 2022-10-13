@@ -13,7 +13,7 @@ public class HollowRender extends MobRenderer<HollowEntity, HollowModel<HollowEn
 			"textures/entity/hollow.png");
 
 	public HollowRender(EntityRendererManager renderManagerIn) {
-		super(renderManagerIn, new HollowModel<>(), 0.7F);
+		super(renderManagerIn, new HollowModel<>(), 0.5F);
 	}
 
 	@Override

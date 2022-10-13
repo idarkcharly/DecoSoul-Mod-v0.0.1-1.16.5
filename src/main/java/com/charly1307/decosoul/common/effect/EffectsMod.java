@@ -11,8 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class EffectsMod {
 
-	public static final DeferredRegister<Effect> MOB_EFFECTS = DeferredRegister.create(ForgeRegistries.POTIONS,
-			DecoSoulM.MOD_ID);
+	public static final DeferredRegister<Effect> MOB_EFFECTS = DeferredRegister.create(ForgeRegistries.POTIONS, DecoSoulM.MOD_ID);
 
 	public static final RegistryObject<Effect> BLEEDING = MOB_EFFECTS.register("bleeding",
 			() -> new BleedingEffect(EffectType.HARMFUL, 10027008));

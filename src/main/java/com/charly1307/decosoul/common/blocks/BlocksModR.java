@@ -21,11 +21,11 @@ public class BlocksModR {
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
 			DecoSoulM.MOD_ID);
 
-	// Blocks
+	// All Blocks
 	public static final RegistryObject<Block> BONFIRE = registerBlock("bonfire",
 			() -> new BonfireBlock(
 					AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(-1.0F, 3600000.0F).notSolid()
-							.setLightLevel((state) -> state.get(BonfireBlock.CLICKED) ? 15 : 0), 10));
+					.setLightLevel((state) -> state.get(BonfireBlock.CLICKED) ? 15 : 0), 10));
 
 	// FIN
 	private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

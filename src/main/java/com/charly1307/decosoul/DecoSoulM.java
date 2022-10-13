@@ -11,6 +11,7 @@ import com.charly1307.decosoul.common.entity.EntityTypesModR;
 import com.charly1307.decosoul.common.entity.merchant.render.MelentiaRenderer;
 import com.charly1307.decosoul.common.entity.monster.render.BuffZombieRenderer;
 import com.charly1307.decosoul.common.entity.monster.render.HollowRender;
+import com.charly1307.decosoul.common.entity.monster.render.KnightRender;
 import com.charly1307.decosoul.common.items.ItemsModR;
 import com.charly1307.decosoul.common.particles.ParticlesMod;
 import com.charly1307.decosoul.core.util.DecoSoulSoundEvents;
@@ -69,12 +70,12 @@ public class DecoSoulM {
 	private void doClientStuff(final FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			RenderTypeLookup.setRenderLayer(BlocksModR.BONFIRE.get(), RenderType.getCutout());
-
 		});
 
+		RenderingRegistry.registerEntityRenderingHandler(EntityTypesModR.HOLLOW.get(), HollowRender::new);
 		RenderingRegistry.registerEntityRenderingHandler(EntityTypesModR.BUFF_ZOMBIE.get(), BuffZombieRenderer::new);
 		RenderingRegistry.registerEntityRenderingHandler(EntityTypesModR.MELENTIA.get(), MelentiaRenderer::new);
-		RenderingRegistry.registerEntityRenderingHandler(EntityTypesModR.HOLLOW.get(), HollowRender::new);
+		RenderingRegistry.registerEntityRenderingHandler(EntityTypesModR.KNIGHT.get(), KnightRender::new);
 
 	}
 

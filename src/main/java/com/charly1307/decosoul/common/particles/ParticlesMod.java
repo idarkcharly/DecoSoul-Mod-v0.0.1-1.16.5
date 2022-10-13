@@ -10,8 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ParticlesMod {
-	public static final DeferredRegister<ParticleType<?>> PARTICLE_TYPES = DeferredRegister
-			.create(ForgeRegistries.PARTICLE_TYPES, DecoSoulM.MOD_ID);
+	public static final DeferredRegister<ParticleType<?>> PARTICLE_TYPES = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES, DecoSoulM.MOD_ID);
 
 	public static final RegistryObject<BasicParticleType> BLEED_PARTICLES = PARTICLE_TYPES.register("bleed_particles",
 			() -> new BasicParticleType(true));

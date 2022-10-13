@@ -6,8 +6,8 @@ import com.charly1307.decosoul.common.items.custom.EstusFlask;
 import com.charly1307.decosoul.common.items.custom.FireSwords;
 import com.charly1307.decosoul.common.items.custom.LifeGem;
 import com.charly1307.decosoul.common.items.custom.LightningSpear;
-import com.charly1307.decosoul.common.items.custom.LingeringFlame;
 import com.charly1307.decosoul.common.items.custom.LightningSwords;
+import com.charly1307.decosoul.common.items.custom.LingeringFlame;
 import com.charly1307.decosoul.common.items.custom.ModSpawnEggItem;
 import com.charly1307.decosoul.common.items.custom.PoisonSwords;
 import com.charly1307.decosoul.common.items.custom.Souls;
@@ -26,7 +26,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 /* DecoSouls Mod
  * @author Charly1307
  * @version 1.16.5-1.0
- * Stats no equilibradas para PVP
+ * Stats no equilibradas para PVP / servidores
  */
 public class ItemsModR {
 
@@ -47,9 +47,14 @@ public class ItemsModR {
 	public static final RegistryObject<Item> LIFEGEM = ITEMS.register("lifegem",
 			() -> new LifeGem(new Item.Properties().maxStackSize(16).rarity(Rarity.COMMON).group(ItemGroup.COMBAT)));
 
+	public static final RegistryObject<Item> HUMANITY = ITEMS.register("humanity",
+			() -> new Item(new Item.Properties().maxStackSize(8).rarity(Rarity.EPIC).group(ItemGroup.COMBAT)));
+
 	public static final RegistryObject<Item> ESTUS_FLASK = ITEMS.register("estus_flask",
 			() -> new EstusFlask(new Item.Properties().maxStackSize(1).isImmuneToFire().rarity(Rarity.EPIC).maxDamage(6)
 					.group(ItemGroup.COMBAT)));
+
+	// Eggs Items
 
 	@SuppressWarnings("deprecation")
 	public static final RegistryObject<ModSpawnEggItem> BUFF_ZOMBIE_SPAWN_EGG = ITEMS.register("buff_zombie_spawn_egg",
@@ -64,6 +69,11 @@ public class ItemsModR {
 	@SuppressWarnings("deprecation")
 	public static final RegistryObject<ModSpawnEggItem> HOLLOW_SPAWN_EGG = ITEMS.register("hollow_spawn_egg",
 			() -> new ModSpawnEggItem(EntityTypesModR.HOLLOW, 0x464F56, 0x1D6336,
+					new Item.Properties().group(ItemGroup.COMBAT)));
+
+	@SuppressWarnings("deprecation")
+	public static final RegistryObject<ModSpawnEggItem> KNIGHT_SPAWN_EGG = ITEMS.register("knight_spawn_egg",
+			() -> new ModSpawnEggItem(EntityTypesModR.KNIGHT, 0x464F56, 0x1D6336,
 					new Item.Properties().group(ItemGroup.COMBAT)));
 	/**
 	 * 

@@ -28,17 +28,10 @@ public class LifeGem extends Item {
 			itemstack.shrink(1);
 		}
 		// Particles
-		for (int i = 0; i <= 360; i++) {
+		for (int i = 0; i <= 45; i++) {
 			worldIn.addOptionalParticle(ParticleTypes.HAPPY_VILLAGER, playerIn.getPosXRandom(1.6),
 					playerIn.getPosYRandom() + 0.2, playerIn.getPosZRandom(1.3), 0, 1d, 0);
 		}
-		/*
-		 * for (int i = 0; i <= 25; i++) { worldIn.addParticle(ParticleTypes.FIREWORK,
-		 * playerIn.getPosXRandom (0.8), playerIn.getPosY(),
-		 * playerIn.getPosZRandom(0.8), 0, 0, 0);
-		 * 
-		 * }
-		 */
 		// SoundEffects
 		playerIn.playSound(DecoSoulSoundEvents.LIFEGEM_SOUND.get(), SoundCategory.BLOCKS, 1, 1);
 		// PotionEffects

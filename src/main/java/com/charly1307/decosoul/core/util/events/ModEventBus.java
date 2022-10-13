@@ -5,6 +5,7 @@ import com.charly1307.decosoul.common.entity.EntityTypesModR;
 import com.charly1307.decosoul.common.entity.merchant.MelentiaEntity;
 import com.charly1307.decosoul.common.entity.monster.BuffZombieEntity;
 import com.charly1307.decosoul.common.entity.monster.HollowEntity;
+import com.charly1307.decosoul.common.entity.monster.KnightEntity;
 import com.charly1307.decosoul.common.items.custom.ModSpawnEggItem;
 import com.charly1307.decosoul.common.particles.ParticlesMod;
 import com.charly1307.decosoul.common.particles.custom.BleedParticles;
@@ -25,6 +26,7 @@ public class ModEventBus {
 		event.put(EntityTypesModR.BUFF_ZOMBIE.get(), BuffZombieEntity.setCustomAttributes().create());
 		event.put(EntityTypesModR.MELENTIA.get(), MelentiaEntity.setCustomAttributes().create());
 		event.put(EntityTypesModR.HOLLOW.get(), HollowEntity.setCustomAttributes().create());
+		event.put(EntityTypesModR.KNIGHT.get(), KnightEntity.setCustomAttributes().create());
 
 	}
 

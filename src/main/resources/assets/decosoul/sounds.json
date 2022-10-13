@@ -26,5 +26,26 @@
 		"sounds": [
 			"decosoul:bonfire_clicked"
 		]
+	},
+	"entity_hollow_ambient": {
+		"category": "monsters",
+		"subtitle": "decosoul.entity_hollow_ambient",
+		"sounds": [
+			"decosoul:entity_hollow_ambient"
+		]
+	},
+	"entity_hollow_hurt": {
+		"category": "monsters",
+		"subtitle": "decosoul.entity_hollow_hurt",
+		"sounds": [
+			"decosoul:entity_hollow_hurt"
+		]
+	},
+	"entity_hollow_death": {
+		"category": "monsters",
+		"subtitle": "decosoul.entity_hollow_death",
+		"sounds": [
+			"decosoul:entity_death"
+		]
 	}
 }
