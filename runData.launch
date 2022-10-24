@@ -2,8 +2,8 @@
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
   <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DecoSoul"/>
   <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="net.minecraftforge.userdev.LaunchTesting"/>
-  <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -XX:+IgnoreUnrecognizedVMOptions --add-exports=java.base/sun.security.util=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming --add-opens=java.base/java.util.jar=ALL-UNNAMED -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump &quot;-Dos.name=Windows 10&quot; -Dos.version=10.0"/>
-  <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value=""/>
+  <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -XX:+IgnoreUnrecognizedVMOptions --add-exports=java.base/sun.security.util=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming --add-opens=java.base/java.util.jar=ALL-UNNAMED"/>
+  <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--mod examplemod --all --output C:\Users\carlos\Desktop\DecoSoul\src\generated\resources --existing C:\Users\carlos\Desktop\DecoSoul\src\main\resources"/>
   <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\carlos\Desktop\DecoSoul\run"/>
   <mapAttribute key="org.eclipse.debug.core.environmentVariables">
     <mapEntry key="MOD_CLASSES" value="decosoul%%C:\Users\carlos\Desktop\DecoSoul\bin\main;decosoul%%C:\Users\carlos\Desktop\DecoSoul\bin\main"/>
@@ -12,9 +12,8 @@
     <mapEntry key="FORGE_VERSION" value="36.2.34"/>
     <mapEntry key="assetIndex" value="1.16"/>
     <mapEntry key="assetDirectory" value="C:\Users\carlos\.gradle\caches\forge_gradle\assets"/>
-    <mapEntry key="nativesDirectory" value="C:\Users\carlos\Desktop\DecoSoul\build\natives"/>
     <mapEntry key="FORGE_GROUP" value="net.minecraftforge"/>
-    <mapEntry key="target" value="fmluserdevclient"/>
+    <mapEntry key="target" value="fmluserdevdata"/>
     <mapEntry key="MC_VERSION" value="1.16.5"/>
   </mapAttribute>
 </launchConfiguration>
